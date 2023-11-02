@@ -36,6 +36,21 @@ a {
     color: #000;
     text-decoration: none;
 }
+.link-primary {
+    color :#147ed3;
+}
+.fa-google{
+    color: red;
+}
+.fa-facebook-square{
+    color: blue;
+}
+#Google{
+    color : red;
+}
+#Facebook{
+    color : blue;
+}
 
 a:hover, a:focus {
     color: #147ed3;
@@ -6754,6 +6769,21 @@ input:hover ~ .clear-val {
     padding-bottom: 3px;
     line-height: 1.6;
 }
+.mt-4 .divider-content-center{
+    color : #A9A9A9;
+    text-align: center;
+    text-decoration-line: blink;
+}
+#socialLoginList #Google{
+    background-color: white;
+    color: #CD0000;
+    border: 1px solid #CD0000;
+}
+#socialLoginList #Facebook{
+    background-color: white;
+    color: #4876FF;
+    border: 1px solid #4876FF;
+}
 
 #MTRLogin #socialLoginList #Facebook {
     margin-top: 0.5rem;
@@ -6765,8 +6795,7 @@ input:hover ~ .clear-val {
     padding-top: 4px;
     padding-bottom: 3px;
     line-height: 1.6;
-}
-
+ }
 
 #MTRLogin #Login {
     background: linear-gradient(22deg, #2f8b00, #4ecd24);
@@ -12706,5 +12735,8 @@ input:-webkit-autofill {
         width: 180px;
         margin-right: -180px;
     }*/
-
 }
+
+
+
+
